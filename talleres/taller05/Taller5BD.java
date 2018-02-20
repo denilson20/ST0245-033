@@ -42,32 +42,41 @@ public class Taller5BD {
         return a;
     }
    public static void main(String[] args) {
-        //tablasDeMultiplicar(10);
-        //int [] a = {9,8,7,6,5,4,3,2,1,};
-        //a = ordenar(a);
-        //for(int i  = 0 ; i < 9 ; i++){
+        /*tablas(10);
+        int [] a = {9,8,7,6,5,4,3,2,1,};
+        a = ordenar(a);
+        for(int i  = 0 ; i < 9 ; i++){
             
-          //  System.out.println(a[i]);
+           System.out.println(a[i]);
         
-        //}
-        /*for(int i = 20000 ; i <= 50000 ; i += 1000){
+        }*/
+        for(int i = 20000 ; i <= 50000 ; i += 1000){
             long bf = System.currentTimeMillis();
-            tablasDeMultiplicar(i);
+            tablas(i);
             long nw = System.currentTimeMillis();
             long ps = nw - bf;
             System.out.println(ps);
         }
-    */
-        for(int i = 100000000; i <= 200000000 ; i+= 10000000){
+    
+        /*for(int i = 100000000; i <= 200000000 ; i+= 10000000){
             int[] m = rand(i);
             long bf = System.currentTimeMillis();
                 ArraySum(m);
             long nw = System.currentTimeMillis();
             long ps = nw - bf;
             System.out.println(ps);
-        }
+        
+    }*/
         
     }
+
+    private static int[] ordenar(int[] a) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
+
+    private static int[] ordenar(int[] a) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
 
