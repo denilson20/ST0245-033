@@ -17,11 +17,15 @@ public class Taller5BD {
     }
      return sum;
 }
-    public static void tablas(int n){
+    public static int tablas(int n){
+        int m =0;
         for (int i = 1; i <= n; i++)
            for (int j = 1; j <= n; j++)
-               System.out.println(i+"*"+j+"="+i*j);
+            m += j*i;  
+        return m;
     }
+    
+
     public static int[] Ordenar(int [] a){
         int temp, j;
         for(int i = 0;i<a.length;i++){
